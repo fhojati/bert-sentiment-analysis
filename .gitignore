@@ -1,0 +1,34 @@
+
+# Python environments
+venv/
+venv311/
+.venv/
+
+# PyCharm
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Trained model checkpoints
+saved_model/
+sentiment_model_v2/
+sentiment_model_v3/
+sentiment_model_backup/
+
+# Large model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Generated datasets
+train_data_v3.jsonl
+
+# Secrets
+.env
+.env.*
+
+# Temporary files
+*.log
